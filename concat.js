@@ -10,6 +10,9 @@ console.log(1 + -'1' + '2'); // 02
 console.log(+'1' + '1' + '2'); // 112
 // Explanation: +'1' converts '1' to a number, so the expression becomes 1 + '1' + '2' which results in '112'
 
+console.log(+'1' + 1 + '1' + '2'); // 212
+// Explanation: +'1' converts '1' to a number, so the expression becomes 1 + 1 + '1' + '2' which results in '212'
+
 console.log('A' - 'B' + "2"); // NaN2
 // Explanation: 'A' - 'B' results in NaN (Not a Number), so the expression becomes NaN + '2' which results in 'NaN2'
 
