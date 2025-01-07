@@ -1,3 +1,64 @@
+// Sample : 1
 let data = [1, 2, 3, 4, 5, 6]; // Added a new element '6'
 let result = data.slice(0, 4); // Changed to slice the first four elements
 console.log(result);
+
+// Sample : 2
+const  aa = 5;
+const bb = aa++;
+const cc = aa + bb;
+console.log(c); // 11
+// Explanation: a is initially 5, b is assigned the value of a (5) before a is incremented to 6. 
+// Then c is calculated as 6 (new value of a) + 5 (value of b), resulting in 11.
+
+// Sample : 3
+let xx = 4;
+console.log(xx++ + ++xx); // 10
+// Explanation: x is initially 4. The expression x++ evaluates to 4 (then x becomes 5), 
+// and ++x increments x to 6 before evaluating to 6. So, the result is 4 + 6 = 10.
+
+// Sample : 4
+console.log(15%4); // 3
+// Explanation: The remainder of 15 divided by 4 is 3.
+
+// Sample : 5
+let as=3;
+let bs= new Number(3);
+console.log(as==bs); // true
+console.log(as===bs); // false
+// Explanation: The == operator compares the values of a and b, which are equal.
+
+// Sample : 6
+let sum=0;
+for(let i=1; i<=3; i++){
+    sum += i;
+}
+console.log(sum);// 6
+// Explanation: The loop iterates from 0 to 4, adding each value of i to the sum.
+
+// Sample : 7
+let x = 5;
+let y = 10;
+let z = 15;
+console.log(x < y < z); // true
+// Explanation: The expression x < y < z is evaluated as (x < y) < z, which is true < z.
+// The boolean value true is coerced to 1, so the expression becomes 1 < z, which is true.
+
+// Sample : 8
+let a = 10;
+let b = (a === 10) ? 5 : 15;
+console.log(b); // 5
+// Explanation: The ternary operator checks if a is equal to 10. Since a is 10, the expression evaluates to true,
+// and the value before the colon (5) is assigned to b.
+
+// Sample : 9
+const age1="24";
+const age2=24;
+console.log(age1==age2); // true
+console.log(age1===age2); // false
+console.log(+age1===age2); // true
+// Explanation: The == operator compares the values of age1 and age2, which are equal.
+// The === operator compares both the values and the types, which are not equal in this case.
+// The + operator before age1 converts the string "24" to a number, making the comparison true.
+
+

@@ -3,8 +3,7 @@
 function findMedian(arr) {
     if (arr.length === 0) return null; // Handle empty array case
     if (arr.length === 1) return arr[0]; // Handle single element array case
-    arr =
-    arr.sort((a, b) => a - b);
+    arr = arr.sort((a, b) => a - b);
     const mid = Math.floor(arr.length / 2);
     return arr.length % 2 !== 0 ? arr[mid] : (arr[mid - 1] + arr[mid]) / 2;
 }

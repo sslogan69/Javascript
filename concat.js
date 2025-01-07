@@ -19,4 +19,9 @@ console.log('A' - 'B' + "2"); // NaN2
 console.log('A' - 'B' + 2); // NaN
 // Explanation: 'A' - 'B' results in NaN (Not a Number), so the expression becomes NaN + 2 which results in NaN
 
-// 4. What is the output of the following code?
+console.log(3 + "4" - "2" + "1"); // 321
+// Explanation: 3 + "4" results in "34", then "34" - "2" converts "34" to a number and subtracts 2 resulting in 32, 
+// then 32 + "1" results in "321"
+
+console.log(10 + ""); // 10
+// Explanation: 10 + "" results in "10" because the number 10 is coerced to a string and concatenated with an empty string.
