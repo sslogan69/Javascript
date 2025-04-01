@@ -4,12 +4,12 @@ let result = data.slice(0, 4); // Changed to slice the first four elements
 console.log(result);
 
 // Sample : 2
-const  aa = 5;
+const aa = 5;
 const bb = aa++;
 const cc = aa + bb;
-console.log(c); // 11
-// Explanation: a is initially 5, b is assigned the value of a (5) before a is incremented to 6. 
-// Then c is calculated as 6 (new value of a) + 5 (value of b), resulting in 11.
+console.log(cc); // 11
+// Explanation: aa is initially 5, bb is assigned the value of aa (5) before aa is incremented to 6. 
+// Then cc is calculated as 6 (new value of aa) + 5 (value of bb), resulting in 11.
 
 // Sample : 3
 let xx = 4;
@@ -29,12 +29,12 @@ console.log(as===bs); // false
 // Explanation: The == operator compares the values of a and b, which are equal.
 
 // Sample : 6
-let sum=0;
-for(let i=1; i<=3; i++){
+let sum = 0;
+for (let i = 1; i <= 3; i++) {
     sum += i;
 }
-console.log(sum);// 6
-// Explanation: The loop iterates from 0 to 4, adding each value of i to the sum.
+console.log(sum); // 6
+// Explanation: The loop iterates from 1 to 3, adding each value of i to the sum. The final sum is 1 + 2 + 3 = 6.
 
 // Sample : 7
 let x = 5;
@@ -60,5 +60,24 @@ console.log(+age1===age2); // true
 // Explanation: The == operator compares the values of age1 and age2, which are equal.
 // The === operator compares both the values and the types, which are not equal in this case.
 // The + operator before age1 converts the string "24" to a number, making the comparison true.
+
+// Sample : 10
+let num1 = 10;
+let num2 = 20;
+let num3 = 30;
+console.log(num1 + num2 + num3); // 60
+// Explanation: The numbers 10, 20, and 30 are added together to get 60.
+
+// Sample : 11
+let str1 = "Hello";
+let str2 = "World";
+console.log(str1 + " " + str2); // "Hello World"
+// Explanation: The strings "Hello" and "World" are concatenated with a space in between to form "Hello World".
+
+// Sample : 12
+let bool1 = true;
+let bool2 = false;
+console.log(bool1 && bool2); // false
+// Explanation: The logical AND (&&) operator returns false because one of the operands (bool2) is false.
 
 

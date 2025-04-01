@@ -15,6 +15,3 @@ console.log(result.trim());  // Output: "eno owt eerht ruof evif"
 
 // Time Complexity: O(n*m) where n is the number of words in the input string and m is the average length of each word. 
 // Space Complexity: O(n*m) as we are storing the reversed words in the result string.
-
-// Method 2: Using Array.map() and Array.reverse() methods
-

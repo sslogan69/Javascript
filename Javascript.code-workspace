@@ -3,6 +3,12 @@
         {
             "name": "Javascript",
             "path": "."
+        },
+        {
+            "path": "../../UserRegistrationApp/UserRegistrationApp/UserRegistrationApp/frontend"
+        },
+        {
+            "path": "../../UserRegistrationApp/UserRegistrationApp/UserRegistrationApp/backend"
         }
     ]
 }
